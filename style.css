@@ -1,12 +1,6 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 html {
     margin: 0;
     padding: 0;
@@ -31,8 +25,8 @@ body {
   display: flex;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 25px;
-  height: 50%;
-  width: 55%;
+  height: 55%;
+  width: 45%;
 }
 
 .inner-card {
@@ -73,8 +67,8 @@ body {
 
 .circle-container {
   margin:auto;
-  width: 64%;
-  height: 60%;
+  width: 130px;
+  height: 130px;
   padding: 6%;
 }
 
@@ -124,13 +118,13 @@ body {
   padding-right: 5%;
   margin-bottom: 6%;
   height: 13%;
+  width: 100%;
   border-radius: 10px;
 }
 
 .category-text {
   font-size: .75em;
   font-weight: 500;
-
 }
 
 .scored {
@@ -181,9 +175,10 @@ img {
   display: flex;
   justify-content: center;
   height: 14%;
+  width: 100%;
 }
 
-#button {
+button {
   background-color: hsl(224, 30%, 27%);
   color: white;
   border: none;
@@ -194,5 +189,18 @@ img {
   margin-top: 6%;
 }
 
+button:hover {
+  background: linear-gradient(360deg, rgba(46,43,233,1) 38%, rgba(120,87,255,1) 100%);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
 
